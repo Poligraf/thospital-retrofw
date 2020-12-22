@@ -18,49 +18,49 @@
 AVCODEC_DEFINITIONS:STRING=
 
 //Path to a file.
-AVCODEC_INCLUDE_DIRS:PATH=AVCODEC_INCLUDE_DIRS-NOTFOUND
+AVCODEC_INCLUDE_DIRS:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //Path to a library.
-AVCODEC_LIBRARIES:FILEPATH=AVCODEC_LIBRARIES-NOTFOUND
+AVCODEC_LIBRARIES:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavcodec.so
 
 //The AVCODEC version number.
-AVCODEC_VERSION:STRING=
+AVCODEC_VERSION:STRING=57.107.100
 
 //The AVDEVICE CFLAGS.
 AVDEVICE_DEFINITIONS:STRING=
 
 //Path to a file.
-AVDEVICE_INCLUDE_DIRS:PATH=AVDEVICE_INCLUDE_DIRS-NOTFOUND
+AVDEVICE_INCLUDE_DIRS:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //Path to a library.
-AVDEVICE_LIBRARIES:FILEPATH=AVDEVICE_LIBRARIES-NOTFOUND
+AVDEVICE_LIBRARIES:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavdevice.so
 
 //The AVDEVICE version number.
-AVDEVICE_VERSION:STRING=
+AVDEVICE_VERSION:STRING=57.10.100
 
 //The AVFORMAT CFLAGS.
 AVFORMAT_DEFINITIONS:STRING=
 
 //Path to a file.
-AVFORMAT_INCLUDE_DIRS:PATH=AVFORMAT_INCLUDE_DIRS-NOTFOUND
+AVFORMAT_INCLUDE_DIRS:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //Path to a library.
-AVFORMAT_LIBRARIES:FILEPATH=AVFORMAT_LIBRARIES-NOTFOUND
+AVFORMAT_LIBRARIES:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavformat.so
 
 //The AVFORMAT version number.
-AVFORMAT_VERSION:STRING=
+AVFORMAT_VERSION:STRING=57.83.100
 
 //The AVUTIL CFLAGS.
 AVUTIL_DEFINITIONS:STRING=
 
 //Path to a file.
-AVUTIL_INCLUDE_DIRS:PATH=AVUTIL_INCLUDE_DIRS-NOTFOUND
+AVUTIL_INCLUDE_DIRS:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //Path to a library.
-AVUTIL_LIBRARIES:FILEPATH=AVUTIL_LIBRARIES-NOTFOUND
+AVUTIL_LIBRARIES:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavutil.so
 
 //The AVUTIL version number.
-AVUTIL_VERSION:STRING=
+AVUTIL_VERSION:STRING=55.78.100
 
 //Build the animation viewer as part of the build process
 BUILD_ANIMVIEWER:BOOL=OFF
@@ -89,7 +89,7 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc-ranlib
 
 //Buildroot CXXFLAGS
-CMAKE_CXX_FLAGS:STRING=-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2
+CMAKE_CXX_FLAGS:STRING= -D_FILE_OFFSET_BITS=64 -O2
 
 //Debug CXXFLAGS
 CMAKE_CXX_FLAGS_DEBUG:STRING=
@@ -98,7 +98,7 @@ CMAKE_CXX_FLAGS_DEBUG:STRING=
 CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Release CXXFLAGS
-CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG -DDINGOO -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
+CMAKE_CXX_FLAGS_RELEASE:STRING=-O2 -DNDEBUG -DDINGOO -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
@@ -112,7 +112,7 @@ CMAKE_C_COMPILER_AR:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a0
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc-ranlib
 
 //Buildroot CFLAGS
-CMAKE_C_FLAGS:STRING=-D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2
+CMAKE_C_FLAGS:STRING=-D_FILE_OFFSET_BITS=64 -O2
 
 //Debug CFLAGS
 CMAKE_C_FLAGS_DEBUG:STRING=
@@ -121,7 +121,7 @@ CMAKE_C_FLAGS_DEBUG:STRING=
 CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
 //Release CFLAGS
-CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DDINGOO -DNDEBUG -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
+CMAKE_C_FLAGS_RELEASE:STRING=-O2 -DDINGOO -DNDEBUG -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
@@ -275,10 +275,10 @@ CorsixTH_Top_Level_SOURCE_DIR:STATIC=/run/media/raboten/c03df044-bb85-4f9c-a53f-
 FFMPEG_DEFINITIONS:STRING=
 
 //The FFmpeg include directories.
-FFMPEG_INCLUDE_DIRS:STRING=
+FFMPEG_INCLUDE_DIRS:STRING=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //The FFmpeg libraries.
-FFMPEG_LIBRARIES:STRING=
+FFMPEG_LIBRARIES:STRING=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavformat.so;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavcodec.so;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavutil.so;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libswresample.so
 
 //Path to a file.
 FREETYPE_INCLUDE_DIR_freetype2:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/freetype2
@@ -296,7 +296,7 @@ FREETYPE_LIBRARY_RELEASE:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e53
 LUA_INCLUDE_DIR:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //Path to a library.
-LUA_LIBRARY:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libluajit-5.1.so
+LUA_LIBRARY:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/liblua.a
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/pkg-config
@@ -332,13 +332,13 @@ SDL_MIXER_LIBRARY:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024
 SWRESAMPLE_DEFINITIONS:STRING=
 
 //Path to a file.
-SWRESAMPLE_INCLUDE_DIRS:PATH=SWRESAMPLE_INCLUDE_DIRS-NOTFOUND
+SWRESAMPLE_INCLUDE_DIRS:PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 
 //Path to a library.
-SWRESAMPLE_LIBRARIES:FILEPATH=SWRESAMPLE_LIBRARIES-NOTFOUND
+SWRESAMPLE_LIBRARIES:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libswresample.so
 
 //The SWRESAMPLE version number.
-SWRESAMPLE_VERSION:STRING=
+SWRESAMPLE_VERSION:STRING=2.9.100
 
 //The SWSCALE CFLAGS.
 SWSCALE_DEFINITIONS:STRING=
@@ -362,7 +362,7 @@ WITH_DIRECTX:BOOL=OFF
 WITH_FREETYPE2:BOOL=ON
 
 //Use LuaJIT instead of Lua
-WITH_LUAJIT:BOOL=ON
+WITH_LUAJIT:BOOL=OFF
 
 //Activate in game movies
 WITH_MOVIES:BOOL=OFF
@@ -372,6 +372,21 @@ WITH_OPENGL:BOOL=OFF
 
 //Activate SDL Renderer
 WITH_SDL:BOOL=ON
+
+//Path to a library.
+pkgcfg_lib_PC_AVCODEC_avcodec:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavcodec.so
+
+//Path to a library.
+pkgcfg_lib_PC_AVDEVICE_avdevice:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavdevice.so
+
+//Path to a library.
+pkgcfg_lib_PC_AVFORMAT_avformat:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavformat.so
+
+//Path to a library.
+pkgcfg_lib_PC_AVUTIL_avutil:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libavutil.so
+
+//Path to a library.
+pkgcfg_lib_PC_SWRESAMPLE_swresample:FILEPATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libswresample.so
 
 
 ########################
@@ -540,7 +555,7 @@ FFMPEG_LIBRARIES-ADVANCED:INTERNAL=1
 //Details about finding Freetype
 FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libfreetype.so][/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/freetype2][v2.9.1()]
 //Details about finding Lua
-FIND_PACKAGE_MESSAGE_DETAILS_Lua:INTERNAL=[/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libluajit-5.1.so][/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Lua:INTERNAL=[/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/liblua.a][/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/pkg-config][v0.28()]
 //Details about finding SDL
@@ -561,102 +576,142 @@ FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 LUA_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LUA_LIBRARY
 LUA_LIBRARY-ADVANCED:INTERNAL=1
-PC_AVCODEC_CFLAGS:INTERNAL=
+PC_AVCODEC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVCODEC_CFLAGS_I:INTERNAL=
 PC_AVCODEC_CFLAGS_OTHER:INTERNAL=
-PC_AVCODEC_FOUND:INTERNAL=
-PC_AVCODEC_INCLUDEDIR:INTERNAL=
-PC_AVCODEC_LIBDIR:INTERNAL=
+PC_AVCODEC_FOUND:INTERNAL=1
+PC_AVCODEC_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVCODEC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVCODEC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavcodec
+PC_AVCODEC_LDFLAGS_OTHER:INTERNAL=
+PC_AVCODEC_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
+PC_AVCODEC_LIBRARIES:INTERNAL=avcodec
+PC_AVCODEC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVCODEC_LIBS:INTERNAL=
 PC_AVCODEC_LIBS_L:INTERNAL=
 PC_AVCODEC_LIBS_OTHER:INTERNAL=
 PC_AVCODEC_LIBS_PATHS:INTERNAL=
-PC_AVCODEC_MODULE_NAME:INTERNAL=
-PC_AVCODEC_PREFIX:INTERNAL=
-PC_AVCODEC_STATIC_CFLAGS:INTERNAL=
+PC_AVCODEC_MODULE_NAME:INTERNAL=libavcodec
+PC_AVCODEC_PREFIX:INTERNAL=/usr
+PC_AVCODEC_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVCODEC_STATIC_CFLAGS_I:INTERNAL=
 PC_AVCODEC_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_AVCODEC_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVCODEC_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavcodec;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm
+PC_AVCODEC_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;-pthread
 PC_AVCODEC_STATIC_LIBDIR:INTERNAL=
+PC_AVCODEC_STATIC_LIBRARIES:INTERNAL=avcodec;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avutil;m
+PC_AVCODEC_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVCODEC_STATIC_LIBS:INTERNAL=
 PC_AVCODEC_STATIC_LIBS_L:INTERNAL=
 PC_AVCODEC_STATIC_LIBS_OTHER:INTERNAL=
 PC_AVCODEC_STATIC_LIBS_PATHS:INTERNAL=
-PC_AVCODEC_VERSION:INTERNAL=
+PC_AVCODEC_VERSION:INTERNAL=57.107.100
 PC_AVCODEC_libavcodec_INCLUDEDIR:INTERNAL=
 PC_AVCODEC_libavcodec_LIBDIR:INTERNAL=
 PC_AVCODEC_libavcodec_PREFIX:INTERNAL=
 PC_AVCODEC_libavcodec_VERSION:INTERNAL=
-PC_AVDEVICE_CFLAGS:INTERNAL=
+PC_AVDEVICE_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVDEVICE_CFLAGS_I:INTERNAL=
 PC_AVDEVICE_CFLAGS_OTHER:INTERNAL=
-PC_AVDEVICE_FOUND:INTERNAL=
-PC_AVDEVICE_INCLUDEDIR:INTERNAL=
-PC_AVDEVICE_LIBDIR:INTERNAL=
+PC_AVDEVICE_FOUND:INTERNAL=1
+PC_AVDEVICE_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVDEVICE_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVDEVICE_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavdevice
+PC_AVDEVICE_LDFLAGS_OTHER:INTERNAL=
+PC_AVDEVICE_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
+PC_AVDEVICE_LIBRARIES:INTERNAL=avdevice
+PC_AVDEVICE_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVDEVICE_LIBS:INTERNAL=
 PC_AVDEVICE_LIBS_L:INTERNAL=
 PC_AVDEVICE_LIBS_OTHER:INTERNAL=
 PC_AVDEVICE_LIBS_PATHS:INTERNAL=
-PC_AVDEVICE_MODULE_NAME:INTERNAL=
-PC_AVDEVICE_PREFIX:INTERNAL=
-PC_AVDEVICE_STATIC_CFLAGS:INTERNAL=
+PC_AVDEVICE_MODULE_NAME:INTERNAL=libavdevice
+PC_AVDEVICE_PREFIX:INTERNAL=/usr
+PC_AVDEVICE_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVDEVICE_STATIC_CFLAGS_I:INTERNAL=
 PC_AVDEVICE_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_AVDEVICE_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVDEVICE_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavdevice;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavformat;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavcodec;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavcodec;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm
+PC_AVDEVICE_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread;-pthread
 PC_AVDEVICE_STATIC_LIBDIR:INTERNAL=
+PC_AVDEVICE_STATIC_LIBRARIES:INTERNAL=avdevice;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avformat;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avcodec;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avutil;m;avutil;m;avcodec;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avutil;m;avutil;m
+PC_AVDEVICE_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVDEVICE_STATIC_LIBS:INTERNAL=
 PC_AVDEVICE_STATIC_LIBS_L:INTERNAL=
 PC_AVDEVICE_STATIC_LIBS_OTHER:INTERNAL=
 PC_AVDEVICE_STATIC_LIBS_PATHS:INTERNAL=
-PC_AVDEVICE_VERSION:INTERNAL=
+PC_AVDEVICE_VERSION:INTERNAL=57.10.100
 PC_AVDEVICE_libavdevice_INCLUDEDIR:INTERNAL=
 PC_AVDEVICE_libavdevice_LIBDIR:INTERNAL=
 PC_AVDEVICE_libavdevice_PREFIX:INTERNAL=
 PC_AVDEVICE_libavdevice_VERSION:INTERNAL=
-PC_AVFORMAT_CFLAGS:INTERNAL=
+PC_AVFORMAT_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVFORMAT_CFLAGS_I:INTERNAL=
 PC_AVFORMAT_CFLAGS_OTHER:INTERNAL=
-PC_AVFORMAT_FOUND:INTERNAL=
-PC_AVFORMAT_INCLUDEDIR:INTERNAL=
-PC_AVFORMAT_LIBDIR:INTERNAL=
+PC_AVFORMAT_FOUND:INTERNAL=1
+PC_AVFORMAT_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVFORMAT_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVFORMAT_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavformat
+PC_AVFORMAT_LDFLAGS_OTHER:INTERNAL=
+PC_AVFORMAT_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
+PC_AVFORMAT_LIBRARIES:INTERNAL=avformat
+PC_AVFORMAT_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVFORMAT_LIBS:INTERNAL=
 PC_AVFORMAT_LIBS_L:INTERNAL=
 PC_AVFORMAT_LIBS_OTHER:INTERNAL=
 PC_AVFORMAT_LIBS_PATHS:INTERNAL=
-PC_AVFORMAT_MODULE_NAME:INTERNAL=
-PC_AVFORMAT_PREFIX:INTERNAL=
-PC_AVFORMAT_STATIC_CFLAGS:INTERNAL=
+PC_AVFORMAT_MODULE_NAME:INTERNAL=libavformat
+PC_AVFORMAT_PREFIX:INTERNAL=/usr
+PC_AVFORMAT_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVFORMAT_STATIC_CFLAGS_I:INTERNAL=
 PC_AVFORMAT_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_AVFORMAT_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVFORMAT_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavformat;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavcodec;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-liconv;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbisenc;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lvorbis;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lmodplug;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-ldrm;-lm;-lbz2;-lz;-pthread;-pthread;-latomic;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm
+PC_AVFORMAT_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;-pthread;-pthread;-pthread
 PC_AVFORMAT_STATIC_LIBDIR:INTERNAL=
+PC_AVFORMAT_STATIC_LIBRARIES:INTERNAL=avformat;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avcodec;modplug;drm;iconv;vorbisenc;vorbis;modplug;drm;m;bz2;z;atomic;avutil;m;avutil;m
+PC_AVFORMAT_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/../mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVFORMAT_STATIC_LIBS:INTERNAL=
 PC_AVFORMAT_STATIC_LIBS_L:INTERNAL=
 PC_AVFORMAT_STATIC_LIBS_OTHER:INTERNAL=
 PC_AVFORMAT_STATIC_LIBS_PATHS:INTERNAL=
-PC_AVFORMAT_VERSION:INTERNAL=
+PC_AVFORMAT_VERSION:INTERNAL=57.83.100
 PC_AVFORMAT_libavformat_INCLUDEDIR:INTERNAL=
 PC_AVFORMAT_libavformat_LIBDIR:INTERNAL=
 PC_AVFORMAT_libavformat_PREFIX:INTERNAL=
 PC_AVFORMAT_libavformat_VERSION:INTERNAL=
-PC_AVUTIL_CFLAGS:INTERNAL=
+PC_AVUTIL_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVUTIL_CFLAGS_I:INTERNAL=
 PC_AVUTIL_CFLAGS_OTHER:INTERNAL=
-PC_AVUTIL_FOUND:INTERNAL=
-PC_AVUTIL_INCLUDEDIR:INTERNAL=
-PC_AVUTIL_LIBDIR:INTERNAL=
+PC_AVUTIL_FOUND:INTERNAL=1
+PC_AVUTIL_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVUTIL_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVUTIL_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil
+PC_AVUTIL_LDFLAGS_OTHER:INTERNAL=
+PC_AVUTIL_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
+PC_AVUTIL_LIBRARIES:INTERNAL=avutil
+PC_AVUTIL_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVUTIL_LIBS:INTERNAL=
 PC_AVUTIL_LIBS_L:INTERNAL=
 PC_AVUTIL_LIBS_OTHER:INTERNAL=
 PC_AVUTIL_LIBS_PATHS:INTERNAL=
-PC_AVUTIL_MODULE_NAME:INTERNAL=
-PC_AVUTIL_PREFIX:INTERNAL=
-PC_AVUTIL_STATIC_CFLAGS:INTERNAL=
+PC_AVUTIL_MODULE_NAME:INTERNAL=libavutil
+PC_AVUTIL_PREFIX:INTERNAL=/usr
+PC_AVUTIL_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_AVUTIL_STATIC_CFLAGS_I:INTERNAL=
 PC_AVUTIL_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_AVUTIL_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_AVUTIL_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm
+PC_AVUTIL_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_AVUTIL_STATIC_LIBDIR:INTERNAL=
+PC_AVUTIL_STATIC_LIBRARIES:INTERNAL=avutil;m
+PC_AVUTIL_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_AVUTIL_STATIC_LIBS:INTERNAL=
 PC_AVUTIL_STATIC_LIBS_L:INTERNAL=
 PC_AVUTIL_STATIC_LIBS_OTHER:INTERNAL=
 PC_AVUTIL_STATIC_LIBS_PATHS:INTERNAL=
-PC_AVUTIL_VERSION:INTERNAL=
+PC_AVUTIL_VERSION:INTERNAL=55.78.100
 PC_AVUTIL_libavutil_INCLUDEDIR:INTERNAL=
 PC_AVUTIL_libavutil_LIBDIR:INTERNAL=
 PC_AVUTIL_libavutil_PREFIX:INTERNAL=
@@ -686,27 +741,37 @@ PC_POSTPROC_libpostproc_INCLUDEDIR:INTERNAL=
 PC_POSTPROC_libpostproc_LIBDIR:INTERNAL=
 PC_POSTPROC_libpostproc_PREFIX:INTERNAL=
 PC_POSTPROC_libpostproc_VERSION:INTERNAL=
-PC_SWRESAMPLE_CFLAGS:INTERNAL=
+PC_SWRESAMPLE_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_SWRESAMPLE_CFLAGS_I:INTERNAL=
 PC_SWRESAMPLE_CFLAGS_OTHER:INTERNAL=
-PC_SWRESAMPLE_FOUND:INTERNAL=
-PC_SWRESAMPLE_INCLUDEDIR:INTERNAL=
-PC_SWRESAMPLE_LIBDIR:INTERNAL=
+PC_SWRESAMPLE_FOUND:INTERNAL=1
+PC_SWRESAMPLE_INCLUDEDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_SWRESAMPLE_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_SWRESAMPLE_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lswresample
+PC_SWRESAMPLE_LDFLAGS_OTHER:INTERNAL=
+PC_SWRESAMPLE_LIBDIR:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
+PC_SWRESAMPLE_LIBRARIES:INTERNAL=swresample
+PC_SWRESAMPLE_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_SWRESAMPLE_LIBS:INTERNAL=
 PC_SWRESAMPLE_LIBS_L:INTERNAL=
 PC_SWRESAMPLE_LIBS_OTHER:INTERNAL=
 PC_SWRESAMPLE_LIBS_PATHS:INTERNAL=
-PC_SWRESAMPLE_MODULE_NAME:INTERNAL=
-PC_SWRESAMPLE_PREFIX:INTERNAL=
-PC_SWRESAMPLE_STATIC_CFLAGS:INTERNAL=
+PC_SWRESAMPLE_MODULE_NAME:INTERNAL=libswresample
+PC_SWRESAMPLE_PREFIX:INTERNAL=/usr
+PC_SWRESAMPLE_STATIC_CFLAGS:INTERNAL=-I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
 PC_SWRESAMPLE_STATIC_CFLAGS_I:INTERNAL=
 PC_SWRESAMPLE_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_SWRESAMPLE_STATIC_INCLUDE_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+PC_SWRESAMPLE_STATIC_LDFLAGS:INTERNAL=-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lswresample;-lm;-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;-lavutil;-lm
+PC_SWRESAMPLE_STATIC_LDFLAGS_OTHER:INTERNAL=
 PC_SWRESAMPLE_STATIC_LIBDIR:INTERNAL=
+PC_SWRESAMPLE_STATIC_LIBRARIES:INTERNAL=swresample;m;avutil;m
+PC_SWRESAMPLE_STATIC_LIBRARY_DIRS:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 PC_SWRESAMPLE_STATIC_LIBS:INTERNAL=
 PC_SWRESAMPLE_STATIC_LIBS_L:INTERNAL=
 PC_SWRESAMPLE_STATIC_LIBS_OTHER:INTERNAL=
 PC_SWRESAMPLE_STATIC_LIBS_PATHS:INTERNAL=
-PC_SWRESAMPLE_VERSION:INTERNAL=
+PC_SWRESAMPLE_VERSION:INTERNAL=2.9.100
 PC_SWRESAMPLE_libswresample_INCLUDEDIR:INTERNAL=
 PC_SWRESAMPLE_libswresample_LIBDIR:INTERNAL=
 PC_SWRESAMPLE_libswresample_PREFIX:INTERNAL=
@@ -744,6 +809,11 @@ SDL_LIBRARY_TEMP:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a
 SDL_MIXER_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL_MIXER_LIBRARY
 SDL_MIXER_LIBRARY-ADVANCED:INTERNAL=1
+__pkg_config_arguments_PC_AVCODEC:INTERNAL=libavcodec
+__pkg_config_arguments_PC_AVDEVICE:INTERNAL=libavdevice
+__pkg_config_arguments_PC_AVFORMAT:INTERNAL=libavformat
+__pkg_config_arguments_PC_AVUTIL:INTERNAL=libavutil
+__pkg_config_arguments_PC_SWRESAMPLE:INTERNAL=libswresample
 __pkg_config_checked_PC_AVCODEC:INTERNAL=1
 __pkg_config_checked_PC_AVDEVICE:INTERNAL=1
 __pkg_config_checked_PC_AVFORMAT:INTERNAL=1
@@ -751,4 +821,15 @@ __pkg_config_checked_PC_AVUTIL:INTERNAL=1
 __pkg_config_checked_PC_POSTPROC:INTERNAL=1
 __pkg_config_checked_PC_SWRESAMPLE:INTERNAL=1
 __pkg_config_checked_PC_SWSCALE:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_AVCODEC_avcodec
+pkgcfg_lib_PC_AVCODEC_avcodec-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_AVDEVICE_avdevice
+pkgcfg_lib_PC_AVDEVICE_avdevice-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_AVFORMAT_avformat
+pkgcfg_lib_PC_AVFORMAT_avformat-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_AVUTIL_avutil
+pkgcfg_lib_PC_AVUTIL_avutil-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PC_SWRESAMPLE_swresample
+pkgcfg_lib_PC_SWRESAMPLE_swresample-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib
 

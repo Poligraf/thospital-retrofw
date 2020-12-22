@@ -5519,3 +5519,959 @@ int main(void)
   return 0;
 }
 
+The target system is: Buildroot - 1 - mipsel
+The host system is: Linux - 5.4.80-2-MANJARO - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/3.19.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/3.19.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_460e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_460e0.dir/build.make CMakeFiles/cmTC_460e0.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1 -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o -O2 -version -o /tmp/ccmfOTB6.s
+GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include
+ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 98b2bc8bdbbb82e53e2a6aee86943dd1
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o /tmp/ccmfOTB6.s
+GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+Linking C executable cmTC_460e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_460e0.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o -o cmTC_460e0 
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real
+COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_460e0' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctE1V0a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_460e0 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_460e0' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+    add: [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include]
+  collapse relative include dir [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-RetroFW-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_460e0/fast && /usr/bin/make  -f CMakeFiles/cmTC_460e0.dir/build.make CMakeFiles/cmTC_460e0.dir/build]
+  ignore line: [make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1 -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o -O2 -version -o /tmp/ccmfOTB6.s]
+  ignore line: [GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+  ignore line: [ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 98b2bc8bdbbb82e53e2a6aee86943dd1]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o /tmp/ccmfOTB6.s]
+  ignore line: [GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking C executable cmTC_460e0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_460e0.dir/link.txt --verbose=1]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o -o cmTC_460e0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_460e0' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctE1V0a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_460e0 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctE1V0a.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_460e0] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_460e0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd3f2/fast && /usr/bin/make  -f CMakeFiles/cmTC_fd3f2.dir/build.make CMakeFiles/cmTC_fd3f2.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1plus -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccMYagld.s
+GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include
+ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2b8893f920ccde0924d9015990ea4507
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMYagld.s
+GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+Linking CXX executable cmTC_fd3f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd3f2.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fd3f2 
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real
+COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_fd3f2' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwsFW0O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_fd3f2 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_fd3f2' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+    add: [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include]
+  collapse relative include dir [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-RetroFW-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_fd3f2/fast && /usr/bin/make  -f CMakeFiles/cmTC_fd3f2.dir/build.make CMakeFiles/cmTC_fd3f2.dir/build]
+  ignore line: [make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1plus -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccMYagld.s]
+  ignore line: [GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+  ignore line: [ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2b8893f920ccde0924d9015990ea4507]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMYagld.s]
+  ignore line: [GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking CXX executable cmTC_fd3f2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd3f2.dir/link.txt --verbose=1]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fd3f2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_fd3f2' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwsFW0O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_fd3f2 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwsFW0O.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fd3f2] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_fd3f2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_877ce/fast && /usr/bin/make  -f CMakeFiles/cmTC_877ce.dir/build.make CMakeFiles/cmTC_877ce.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_877ce.dir/CORSIX_TH_HAS_STDINT_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_877ce.dir/CORSIX_TH_HAS_STDINT_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_STDINT_H.c
+Linking C executable cmTC_877ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_877ce.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_877ce.dir/CORSIX_TH_HAS_STDINT_H.c.o -o cmTC_877ce 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0b7d/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0b7d.dir/build.make CMakeFiles/cmTC_d0b7d.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0b7d.dir/CORSIX_TH_HAS_MALLOC_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_d0b7d.dir/CORSIX_TH_HAS_MALLOC_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_MALLOC_H.c
+Linking C executable cmTC_d0b7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0b7d.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_d0b7d.dir/CORSIX_TH_HAS_MALLOC_H.c.o -o cmTC_d0b7d 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files alloca.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f73b1/fast && /usr/bin/make  -f CMakeFiles/cmTC_f73b1.dir/build.make CMakeFiles/cmTC_f73b1.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f73b1.dir/CORSIX_TH_HAS_ALLOCA_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_f73b1.dir/CORSIX_TH_HAS_ALLOCA_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_ALLOCA_H.c
+Linking C executable cmTC_f73b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f73b1.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_f73b1.dir/CORSIX_TH_HAS_ALLOCA_H.c.o -o cmTC_f73b1 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a3780/fast && /usr/bin/make  -f CMakeFiles/cmTC_a3780.dir/build.make CMakeFiles/cmTC_a3780.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3780.dir/CORSIX_TH_HAS_INTTYPES_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_a3780.dir/CORSIX_TH_HAS_INTTYPES_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_INTTYPES_H.c
+Linking C executable cmTC_a3780
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3780.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_a3780.dir/CORSIX_TH_HAS_INTTYPES_H.c.o -o cmTC_a3780 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6418/fast && /usr/bin/make  -f CMakeFiles/cmTC_b6418.dir/build.make CMakeFiles/cmTC_b6418.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6418.dir/CheckIncludeFile.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_b6418.dir/CheckIncludeFile.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b6418
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6418.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_b6418.dir/CheckIncludeFile.c.o -o cmTC_b6418 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43523/fast && /usr/bin/make  -f CMakeFiles/cmTC_43523.dir/build.make CMakeFiles/cmTC_43523.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43523.dir/src.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_43523.dir/src.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_43523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43523.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_43523.dir/src.c.o -o cmTC_43523 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The target system is: Buildroot - 1 - mipsel
+The host system is: Linux - 5.4.80-2-MANJARO - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/3.19.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-O2
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/3.19.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_25f6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_25f6a.dir/build.make CMakeFiles/cmTC_25f6a.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1 -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o -O2 -version -o /tmp/ccmfOTB6.s
+GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include
+ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 98b2bc8bdbbb82e53e2a6aee86943dd1
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o /tmp/ccmfOTB6.s
+GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+Linking C executable cmTC_25f6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25f6a.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o -o cmTC_25f6a 
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real
+COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_25f6a' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccswHRtT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_25f6a /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_25f6a' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+    add: [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include]
+  collapse relative include dir [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-RetroFW-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_25f6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_25f6a.dir/build.make CMakeFiles/cmTC_25f6a.dir/build]
+  ignore line: [make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1 -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCCompilerABI.c -mel -quiet -dumpbase CMakeCCompilerABI.c -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o -O2 -version -o /tmp/ccmfOTB6.s]
+  ignore line: [GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+  ignore line: [ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 98b2bc8bdbbb82e53e2a6aee86943dd1]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o /tmp/ccmfOTB6.s]
+  ignore line: [GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_ce87f.dir/CMakeCCompilerABI.c.o' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking C executable cmTC_25f6a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25f6a.dir/link.txt --verbose=1]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o -o cmTC_25f6a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_25f6a' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccswHRtT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_25f6a /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccswHRtT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_25f6a] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_25f6a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ae508/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae508.dir/build.make CMakeFiles/cmTC_ae508.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1plus -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccMYagld.s
+GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include
+ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include
+End of search list.
+GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)
+	compiled by GNU C version 10.2.0, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2b8893f920ccde0924d9015990ea4507
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMYagld.s
+GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+Linking CXX executable cmTC_ae508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae508.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ae508 
+Using built-in specs.
+COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real
+COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper
+Target: mipsel-RetroFW-linux-uclibc
+Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) 
+COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/
+LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_ae508' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5bCSix.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_ae508 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_ae508' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL'
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+    add: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+    add: [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  collapse include dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include]
+  collapse relative include dir [../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  implicit include dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/include;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-RetroFW-linux-uclibc-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ae508/fast && /usr/bin/make  -f CMakeFiles/cmTC_ae508.dir/build.make CMakeFiles/cmTC_ae508.dir/build]
+  ignore line: [make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG   -v -o CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/cc1plus -quiet -v -isysroot ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot -D_GNU_SOURCE -D _LARGEFILE_SOURCE -D _LARGEFILE64_SOURCE -D _FILE_OFFSET_BITS=64 -D NDEBUG /usr/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -mel -quiet -dumpbase CMakeCXXCompilerABI.cpp -mips32 -mabi=32 -mnan=legacy -mfp32 -mllsc -mno-shared -auxbase-strip CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccMYagld.s]
+  ignore line: [GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/mipsel-RetroFW-linux-uclibc]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include/c++/7.3.0/backward]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/include-fixed]
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/include]
+  ignore line: [ ../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Buildroot 2018.02.11-00013-g81ea219) version 7.3.0 (mipsel-RetroFW-linux-uclibc)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2b8893f920ccde0924d9015990ea4507]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/as -v -EL -mips32 -O2 -no-mdebug -mabi=32 -mfp32 -mnan=legacy -mno-shared -KPIC -o CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMYagld.s]
+  ignore line: [GNU assembler version 2.30 (mipsel-RetroFW-linux-uclibc) using BFD version (GNU Binutils) 2.30]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/lib/:../../../buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-O2' '-v' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-D' 'NDEBUG' '-c' '-o' 'CMakeFiles/cmTC_bedf7.dir/CMakeCXXCompilerABI.cpp.o' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  ignore line: [Linking CXX executable cmTC_ae508]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae508.dir/link.txt --verbose=1]
+  ignore line: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-g++ --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG  -v CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ae508 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/bin/mipsel-RetroFW-linux-uclibc-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper]
+  ignore line: [Target: mipsel-RetroFW-linux-uclibc]
+  ignore line: [Configured with: ./configure --prefix=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --sysconfdir=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/etc --enable-static --target=mipsel-RetroFW-linux-uclibc --with-sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpc=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-mpfr=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host --with-pkgversion='Buildroot 2018.02.11-00013-g81ea219' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-arch=mips32 --with-abi=32 --with-nan=legacy --with-fp-32=32 --enable-languages=c,c++ --with-build-time-tools=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.3.0 (Buildroot 2018.02.11-00013-g81ea219) ]
+  ignore line: [COMPILER_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib/:/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mips32' '-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-O2' '-D' 'NDEBUG' '-v' '-o' 'cmTC_ae508' '-shared-libgcc' '-mabi=32' '-mnan=legacy' '-mfp32' '-mllsc' '-mno-shared' '-EL']
+  link line: [ /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2 -plugin /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so -plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5bCSix.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot --eh-frame-hdr -EL -mips32 -dynamic-linker /lib/ld-uClibc.so.0 -melf32ltsmip -o cmTC_ae508 /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0 -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib -L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o]
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/libexec/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5bCSix.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-mips32] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-melf32ltsmip] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ae508] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtbegin.o] ==> ignore
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+    arg [-L/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_ae508.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/crtend.o] ==> ignore
+    arg [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0/../../../../mipsel-RetroFW-linux-uclibc/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib]
+  collapse library dir [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib] ==> [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/lib/gcc/mipsel-RetroFW-linux-uclibc/7.3.0;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/lib;/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4287/fast && /usr/bin/make  -f CMakeFiles/cmTC_a4287.dir/build.make CMakeFiles/cmTC_a4287.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4287.dir/CORSIX_TH_HAS_STDINT_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_a4287.dir/CORSIX_TH_HAS_STDINT_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_STDINT_H.c
+Linking C executable cmTC_a4287
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4287.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_a4287.dir/CORSIX_TH_HAS_STDINT_H.c.o -o cmTC_a4287 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b38aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_b38aa.dir/build.make CMakeFiles/cmTC_b38aa.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b38aa.dir/CORSIX_TH_HAS_MALLOC_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_b38aa.dir/CORSIX_TH_HAS_MALLOC_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_MALLOC_H.c
+Linking C executable cmTC_b38aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b38aa.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_b38aa.dir/CORSIX_TH_HAS_MALLOC_H.c.o -o cmTC_b38aa 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files alloca.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9504d/fast && /usr/bin/make  -f CMakeFiles/cmTC_9504d.dir/build.make CMakeFiles/cmTC_9504d.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9504d.dir/CORSIX_TH_HAS_ALLOCA_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_9504d.dir/CORSIX_TH_HAS_ALLOCA_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_ALLOCA_H.c
+Linking C executable cmTC_9504d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9504d.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_9504d.dir/CORSIX_TH_HAS_ALLOCA_H.c.o -o cmTC_9504d 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11e1c/fast && /usr/bin/make  -f CMakeFiles/cmTC_11e1c.dir/build.make CMakeFiles/cmTC_11e1c.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11e1c.dir/CORSIX_TH_HAS_INTTYPES_H.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_11e1c.dir/CORSIX_TH_HAS_INTTYPES_H.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CheckIncludeFiles/CORSIX_TH_HAS_INTTYPES_H.c
+Linking C executable cmTC_11e1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e1c.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_11e1c.dir/CORSIX_TH_HAS_INTTYPES_H.c.o -o cmTC_11e1c 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f30fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_f30fb.dir/build.make CMakeFiles/cmTC_f30fb.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f30fb.dir/CheckIncludeFile.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_f30fb.dir/CheckIncludeFile.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f30fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30fb.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_f30fb.dir/CheckIncludeFile.c.o -o cmTC_f30fb 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59cde/fast && /usr/bin/make  -f CMakeFiles/cmTC_59cde.dir/build.make CMakeFiles/cmTC_59cde.dir/build
+make[1]: Entering directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59cde.dir/src.c.o
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG -o CMakeFiles/cmTC_59cde.dir/src.c.o -c /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_59cde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59cde.dir/link.txt --verbose=1
+/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/bin/mipsel-RetroFW-linux-uclibc-gcc --sysroot=/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2   -DNDEBUG CMakeFiles/cmTC_59cde.dir/src.c.o -o cmTC_59cde 
+make[1]: Leaving directory '/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

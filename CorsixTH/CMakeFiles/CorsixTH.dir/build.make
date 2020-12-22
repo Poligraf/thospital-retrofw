@@ -625,7 +625,7 @@ CorsixTH/CorsixTH: CorsixTH/CMakeFiles/CorsixTH.dir/__/agg/src/agg_image_filters
 CorsixTH/CorsixTH: CorsixTH/CMakeFiles/CorsixTH.dir/build.make
 CorsixTH/CorsixTH: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDLmain.a
 CorsixTH/CorsixTH: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL.so
-CorsixTH/CorsixTH: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libluajit-5.1.so
+CorsixTH/CorsixTH: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/liblua.a
 CorsixTH/CorsixTH: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libSDL_mixer.so
 CorsixTH/CorsixTH: /run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/lib/libfreetype.so
 CorsixTH/CorsixTH: CorsixTH/CMakeFiles/CorsixTH.dir/link.txt

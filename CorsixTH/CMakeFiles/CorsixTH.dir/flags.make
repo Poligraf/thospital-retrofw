@@ -7,11 +7,11 @@ C_DEFINES =
 
 C_INCLUDES = -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CorsixTH/Src -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/agg/include -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/freetype2
 
-C_FLAGS = -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -O3 -DDINGOO -DNDEBUG -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
+C_FLAGS = -D_FILE_OFFSET_BITS=64 -O2 -O2 -DDINGOO -DNDEBUG -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
 
 CXX_DEFINES = 
 
 CXX_INCLUDES = -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/CorsixTH/Src -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/CorsixTH-0.40/agg/include -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/SDL -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/usr/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/freetype2
 
-CXX_FLAGS = -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -O3 -DNDEBUG -DDINGOO -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
+CXX_FLAGS =  -D_FILE_OFFSET_BITS=64 -O2 -O2 -DNDEBUG -DDINGOO -I/run/media/raboten/c03df044-bb85-4f9c-a53f-e537b8a024a0/buildroot/output/host/mipsel-RetroFW-linux-uclibc/sysroot/usr/include/
 

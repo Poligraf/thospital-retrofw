@@ -30,6 +30,16 @@ SOFTWARE.
 #pragma warning (disable: 4996) // CRT deprecation
 #endif
 
+#define	BUTTON_UP		SDLK_UP			// Up
+#define	BUTTON_DOWN		SDLK_DOWN		// Down
+#define	BUTTON_LEFT		SDLK_LEFT		// Left
+#define	BUTTON_RIGHT	SDLK_RIGHT		// Right
+
+uint8_t *keystate = SDL_GetKeyState(NULL);
+
+int av_mouse_cur_x;
+int av_mouse_cur_y;
+
 static int l_init(lua_State *L)
 {
     Uint32 flags = 0;
@@ -159,11 +169,27 @@ static int l_mainloop(lua_State *L)
             case SDL_QUIT:
                 goto leave_loop;
             case SDL_KEYDOWN:
+            if (keystate[BUTTON_DOWN] || keystate[BUTTON_UP] ||
+            keystate[BUTTON_LEFT] || keystate[BUTTON_RIGHT]) {
+              av_mouse_cur_x += 15 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
+              av_mouse_cur_y += 15 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
+
+              if (av_mouse_cur_x < 0) av_mouse_cur_x = 0;
+              if (av_mouse_cur_x > 640) av_mouse_cur_x = 640;
+              if (av_mouse_cur_y < 0) av_mouse_cur_y = 0;
+              if (av_mouse_cur_y > 480) av_mouse_cur_y = 480;
+
+              SDL_WarpMouse(av_mouse_cur_x, av_mouse_cur_y);
+
+            }
+
+            else{
                 lua_pushliteral(dispatcher, "keydown");
                 lua_pushinteger(dispatcher, e.key.keysym.sym);
                 l_push_utf8(dispatcher, e.key.keysym.unicode);
                 nargs = 3;
                 break;
+            }
             case SDL_KEYUP:
                 lua_pushliteral(dispatcher, "keyup");
                 lua_pushinteger(dispatcher, e.key.keysym.sym);

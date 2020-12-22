@@ -27,7 +27,7 @@ key_or_mouse_button_that_you_do_have = mouse_button_you_want_it_to_behave_as;
 -- make the left or right arrow keyboard buttons behave as mouse buttons.
 
 button_remaps {
-  -- z = middle;
-  -- x = right;
+   backspace = left;
+   tab = right;
 }
 -------------------------------------------------------------------------------

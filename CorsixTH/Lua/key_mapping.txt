@@ -11,10 +11,10 @@ key_that_you_do_have = key_you_want_it_to_behave_as;
 -- four lines currently in the list.
 
 key_remaps {
-  -- w = up;
-  -- s = down;
-  -- a = left;
-  -- d = right;
+   ! = up;
+   @ = down;
+   # = left;
+   $ = right;
 }
 -------------------------------------------------------------------------------
 

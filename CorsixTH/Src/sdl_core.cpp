@@ -35,7 +35,7 @@ SOFTWARE.
 #define	BUTTON_LEFT		SDLK_LEFT		// Left
 #define	BUTTON_RIGHT	SDLK_RIGHT		// Right
 
-uint8_t *keystate = SDL_GetKeyState(NULL);
+
 
 int av_mouse_cur_x;
 int av_mouse_cur_y;
@@ -156,40 +156,58 @@ static int l_mainloop(lua_State *L)
     fps_ctrl *fps_control = (fps_ctrl*)lua_touserdata(L, lua_upvalueindex(1));
     SDL_TimerID timer = SDL_AddTimer(30, timer_frame_callback, NULL);
     SDL_Event e;
+    uint8_t *keystate = SDL_GetKeyState(NULL);
+
+
 
     while(SDL_WaitEvent(&e) != 0)
     {
+
+      if ((keystate[BUTTON_DOWN] || keystate[BUTTON_UP] ||
+      keystate[BUTTON_LEFT] || keystate[BUTTON_RIGHT])){
+        av_mouse_cur_x += 10 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
+        av_mouse_cur_y += 10 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
+
+        if (av_mouse_cur_x < 0) av_mouse_cur_x = 0;
+        if (av_mouse_cur_x > 640) av_mouse_cur_x = 640;
+        if (av_mouse_cur_y < 0) av_mouse_cur_y = 0;
+        if (av_mouse_cur_y > 480) av_mouse_cur_y = 480;
+
+        SDL_WarpMouse(av_mouse_cur_x, av_mouse_cur_y);
+      }
+
+
         bool do_frame = false;
         bool do_timer = false;
         do
         {
+
+
+
+
             int nargs;
             switch(e.type)
             {
+
+
+
             case SDL_QUIT:
                 goto leave_loop;
             case SDL_KEYDOWN:
-            if (keystate[BUTTON_DOWN] || keystate[BUTTON_UP] ||
-            keystate[BUTTON_LEFT] || keystate[BUTTON_RIGHT]) {
-              av_mouse_cur_x += 15 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
-              av_mouse_cur_y += 15 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
 
-              if (av_mouse_cur_x < 0) av_mouse_cur_x = 0;
-              if (av_mouse_cur_x > 640) av_mouse_cur_x = 640;
-              if (av_mouse_cur_y < 0) av_mouse_cur_y = 0;
-              if (av_mouse_cur_y > 480) av_mouse_cur_y = 480;
+            if (keystate[BUTTON_DOWN] ==false || keystate[BUTTON_UP] ==false  ||
+              keystate[BUTTON_LEFT] ==false  || keystate[BUTTON_RIGHT] ==false ) {
 
-              SDL_WarpMouse(av_mouse_cur_x, av_mouse_cur_y);
-
-            }
-
-            else{
                 lua_pushliteral(dispatcher, "keydown");
                 lua_pushinteger(dispatcher, e.key.keysym.sym);
                 l_push_utf8(dispatcher, e.key.keysym.unicode);
                 nargs = 3;
                 break;
-            }
+              }
+
+              else{
+
+              }
             case SDL_KEYUP:
                 lua_pushliteral(dispatcher, "keyup");
                 lua_pushinteger(dispatcher, e.key.keysym.sym);

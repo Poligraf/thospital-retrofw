@@ -824,4 +824,3 @@ function UIBottomPanel:afterLoad(old, new)
   end
   Window.afterLoad(self, old, new)
 end
-

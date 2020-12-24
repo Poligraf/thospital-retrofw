@@ -52,10 +52,10 @@ function UICasebook:UICasebook(ui, disease_selection)
     :setTooltip(_S.tooltip.casebook.research)
 
   -- Hotkeys
-  self:addKeyHandler("up", self.scrollUp)
-  self:addKeyHandler("down", self.scrollDown)
-  self:addKeyHandler("right", self.increasePay)
-  self:addKeyHandler("left", self.decreasePay)
+  self:addKeyHandler("!", self.scrollUp)
+  self:addKeyHandler("@", self.scrollDown)
+  self:addKeyHandler("#", self.increasePay)
+  self:addKeyHandler("$", self.decreasePay)
   self.ui:enableKeyboardRepeat() -- To quickly change values
 
   -- Icons representing cure effectiveness and other important information.

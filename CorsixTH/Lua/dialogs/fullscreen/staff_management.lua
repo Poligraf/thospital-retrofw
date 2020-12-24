@@ -132,10 +132,10 @@ function UIStaffManagement:UIStaffManagement(ui, disease_selection)
   self:setCategory("Doctor")
 
   -- Hotkeys.
-  self:addKeyHandler("left", self.previousCategory)
-  self:addKeyHandler("right", self.nextCategory)
-  self:addKeyHandler("up", self.previousStaff)
-  self:addKeyHandler("down", self.nextStaff)
+  self:addKeyHandler("@", self.previousCategory)
+  self:addKeyHandler("#", self.nextCategory)
+  self:addKeyHandler("!", self.previousStaff)
+  self:addKeyHandler("!", self.nextStaff)
 end
 
 function UIStaffManagement:updateTooltips()

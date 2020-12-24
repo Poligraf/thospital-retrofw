@@ -94,10 +94,10 @@ function UIBottomPanel:UIBottomPanel(ui)
   end, 41, 30, 137, 42)
 
   -- original TH F-key shortcuts
-  ui:addKeyHandler("F1", self.bank_button, self.bank_button.handleClick, "left")  -- bank manager
-  ui:addKeyHandler("F2", self.bank_button, self.bank_button.handleClick, "right")  -- bank stats
-  ui:addKeyHandler("F3", buttons[1], buttons[1].handleClick, "left")    -- staff management
-  ui:addKeyHandler("F4", buttons[2], buttons[2].handleClick, "left")    -- town map
+  ui:addKeyHandler("w", self.bank_button, self.bank_button.handleClick, "left")  -- bank manager
+  ui:addKeyHandler("d", self.bank_button, self.bank_button.handleClick, "right")  -- bank stats
+  ui:addKeyHandler("s", buttons[1], buttons[1].handleClick, "left")    -- staff management
+  ui:addKeyHandler("a", buttons[2], buttons[2].handleClick, "left")    -- town map
   ui:addKeyHandler("F5", buttons[3], buttons[3].handleClick, "left")    -- casebook
   ui:addKeyHandler("F6", buttons[4], buttons[4].handleClick, "left")    -- research
   ui:addKeyHandler("F7", buttons[5], buttons[5].handleClick, "left")    -- status
@@ -106,7 +106,7 @@ function UIBottomPanel:UIBottomPanel(ui)
 
   -- "old" keyboard shortcuts for some of the fullscreen windows
   ui:addKeyHandler("T", buttons[2], buttons[2].handleClick, "left") -- T for town map
-  ui:addKeyHandler("R", buttons[4], buttons[4].handleClick, "left") -- R for research
+  ui:addKeyHandler("end", buttons[4], buttons[4].handleClick, "left") -- R for research
   local config = ui.app.config
   if not config.volume_opens_casebook then
     ui:addKeyHandler("C", buttons[3], buttons[3].handleClick, "left") -- C for casebook
@@ -117,8 +117,8 @@ function UIBottomPanel:UIBottomPanel(ui)
   ui:addKeyHandler({"shift", "S"}, self, self.openSave)  -- Shift + S for Load create save menu
   ui:addKeyHandler({"shift", "R"}, self, self.restart)  -- Shift + R for restart the level
   ui:addKeyHandler({"shift", "Q"}, self, self.quit)  -- Shift + Q quit the game and return to main menu
-  ui:addKeyHandler({"shift", "alt", "S"}, self, self.quickSave)  -- Shift+Alt+S quick save
-  ui:addKeyHandler({"shift", "alt", "L"}, self, self.quickLoad)  -- Shift+Alt+L load last quick save
+  ui:addKeyHandler({"pageup"}, self, self.quickSave)  -- Shift+Alt+S quick save
+  ui:addKeyHandler({"pagedown"}, self, self.quickLoad)  -- Shift+Alt+L load last quick save
 
   -- misc. keyhandlers
   ui:addKeyHandler("M", self, self.openFirstMessage)    -- M for message

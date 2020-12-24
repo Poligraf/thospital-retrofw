@@ -90,8 +90,8 @@ local config_defaults = {
   as it this is where it always ends up when the file is recreated.
   for ease of reference I have also ordered the fields into the same order]]
   fullscreen = false,
-  width = 800,
-  height = 600,
+  width = 640,
+  height = 480,
   language = [[English]],
   audio = true,
   free_build_mode = false,
@@ -107,9 +107,9 @@ local config_defaults = {
   twentyfour_hour_clock = true,
   warmth_colors_display_default = 1,
   grant_wage_increase = false,
-  movies = true,
-  play_intro = true,
-  allow_user_actions_while_paused = false,
+  movies = false,
+  play_intro = false,
+  allow_user_actions_while_paused = true,
   volume_opens_casebook = false,
   alien_dna_only_by_emergency = true,
   alien_dna_must_stand = true,
@@ -119,12 +119,12 @@ local config_defaults = {
   audio_frequency = 22050,
   audio_channels = 2,
   audio_buffer_size = 2048,
-  theme_hospital_install = [[F:\ThemeHospital\hospital]],
+  theme_hospital_install = [[/mnt/th]],
   debug = false,
   track_fps = false,
   zoom_speed = 80,
   scroll_speed = 2,
-  check_for_updates = true
+  check_for_updates = false
 }
 local fi = io.open(config_filename, "r")
 local config_values = {}
@@ -218,13 +218,13 @@ if needs_rewrite then
 ----------------------------------------------- OPTIONS MENU ---------------------------------------------------
 --These settings can also be changed from within the game from the options menu
 -------------------------------------------------------------------------------------------------------------------------
--- Sounds: By default enabled and set at level 0.5 
--- ]=] .. '\n' .. 
+-- Sounds: By default enabled and set at level 0.5
+-- ]=] .. '\n' ..
 'play_sounds = ' .. tostring(config_values.play_sounds) .. '\n' ..
 'sound_volume = ' .. tostring(config_values.sound_volume) .. '\n' .. [=[
 
 -------------------------------------------------------------------------------------------------------------------------
--- Announcements: By default set at level 0.5 
+-- Announcements: By default set at level 0.5
 -- ]=] .. '\n' ..
 'play_announcements = ' .. tostring(config_values.play_announcements) .. '\n' ..
 'announcement_volume = ' .. tostring(config_values.announcement_volume) .. '\n' .. [=[
@@ -249,7 +249,7 @@ if needs_rewrite then
 -------------------------------------------------------------------------------------------------------------------------
 -- Scrolling Momentum.
 -- Determines the amount of momentum when scrolling the map with the mouse.
--- This should be a value between 0 and 1 where 0 is no momentum 
+-- This should be a value between 0 and 1 where 0 is no momentum
 -- ]=] .. '\n' ..
 'scrolling_momentum = ' .. tostring(config_values.scrolling_momentum) .. '\n' .. [=[
 

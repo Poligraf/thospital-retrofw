@@ -165,8 +165,8 @@ static int l_mainloop(lua_State *L)
 
       if ((keystate[BUTTON_DOWN] || keystate[BUTTON_UP] ||
       keystate[BUTTON_LEFT] || keystate[BUTTON_RIGHT])){
-        av_mouse_cur_x += 10 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
-        av_mouse_cur_y += 10 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
+        av_mouse_cur_x += 13 * (keystate[BUTTON_RIGHT] - keystate[BUTTON_LEFT]);
+        av_mouse_cur_y += 13 * (keystate[BUTTON_DOWN]  - keystate[BUTTON_UP]);
 
         if (av_mouse_cur_x < 0) av_mouse_cur_x = 0;
         if (av_mouse_cur_x > 640) av_mouse_cur_x = 640;

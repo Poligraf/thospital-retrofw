@@ -10,11 +10,17 @@ key_that_you_do_have = key_you_want_it_to_behave_as;
 -- For example, to make the W/S/A/D keys behave as arrow keys, uncomment the
 -- four lines currently in the list.
 
+
+--hack the keys so that they do nothing
 key_remaps {
-   ! = up;
-   @ = down;
-   # = left;
-   $ = right;
+   t = up;
+   y = down;
+   u = left;
+   i = right;
+   up = l;
+   left = l;
+   right = l;
+   down = l;
 }
 -------------------------------------------------------------------------------
 

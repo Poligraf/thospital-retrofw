@@ -22,16 +22,16 @@ key_remaps {
    right = l;
    down = l;
    ctrl = z;
-   alt = x;
-   space = v;
+   alt = f5;
+   space = f6;
    enter = p;
    one = 3;
    two = 4;
    three = 5;
-   four = f6;
+   four = f1;
    w = f4;
    d = f3;
-   s = f5;
+   s = f8;
    a = f9;
 }
 -------------------------------------------------------------------------------

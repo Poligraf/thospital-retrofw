@@ -113,12 +113,12 @@ function UIBottomPanel:UIBottomPanel(ui)
   else
     ui:addKeyHandler({"shift", "C"}, buttons[3], buttons[3].handleClick, "left") -- Shift + C for casebook
   end
-  ui:addKeyHandler({"shift", "L"}, self, self.openLoad)  -- Shift + L for Load saved game menu
-  ui:addKeyHandler({"shift", "S"}, self, self.openSave)  -- Shift + S for Load create save menu
-  ui:addKeyHandler({"shift", "R"}, self, self.restart)  -- Shift + R for restart the level
+  -- ui:addKeyHandler({"shift", "L"}, self, self.openLoad)  -- Shift + L for Load saved game menu
+  -- ui:addKeyHandler({"shift", "S"}, self, self.openSave)  -- Shift + S for Load create save menu
+  -- ui:addKeyHandler({"shift", "R"}, self, self.restart)  -- Shift + R for restart the level
   ui:addKeyHandler({"shift", "Q"}, self, self.quit)  -- Shift + Q quit the game and return to main menu
-  ui:addKeyHandler({"pageup"}, self, self.quickSave)  -- Shift+Alt+S quick save
-  ui:addKeyHandler({"pagedown"}, self, self.quickLoad)  -- Shift+Alt+L load last quick save
+  ui:addKeyHandler({"page_up"}, self, self.quickSave)  -- Shift+Alt+S quick save
+  ui:addKeyHandler({"page_down"}, self, self.quickLoad)  -- Shift+Alt+L load last quick save
 
   -- misc. keyhandlers
   ui:addKeyHandler("M", self, self.openFirstMessage)    -- M for message
@@ -819,8 +819,8 @@ function UIBottomPanel:afterLoad(old, new)
     self.ui:addKeyHandler({"shift", "Q"}, self, self.quit)  -- Shift + Q quit the game and return to main menu
   end
   if old < 82 then
-    self.ui:addKeyHandler({"shift","alt", "S"}, self, self.quickSave)  -- Shift+Alt+S quick save
-    self.ui:addKeyHandler({"shift","alt", "L"}, self, self.quickLoad)  -- Shift+Alt+L load last quick save
+    self.ui:addKeyHandler({"page_up"}, self, self.quickSave)  -- Shift+Alt+S quick save
+    self.ui:addKeyHandler({"page_down"}, self, self.quickLoad)  -- Shift+Alt+L load last quick save
   end
   Window.afterLoad(self, old, new)
 end

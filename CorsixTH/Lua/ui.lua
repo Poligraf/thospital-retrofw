@@ -86,6 +86,11 @@ function UI:initKeyAndButtonCodes()
 
   self.key_codes = {
     backspace = 8,
+    tab = 9,
+    one = 49,
+    two = 50,
+    three = 51,
+    four = 52,
     delete = 127,
     esc = 27,
     up = 273,
@@ -94,6 +99,7 @@ function UI:initKeyAndButtonCodes()
     left = 276,
     x = 120,
     z = 122,
+    space = 32,
     f1 = 282,
     f2 = 283,
     f3 = 284,
@@ -109,6 +115,8 @@ function UI:initKeyAndButtonCodes()
     enter = 13,
     home = 278,
     end_key = 279,
+    page_up = 280,
+    page_down = 281,
     shift = {303, 304},
     ctrl = {305, 306},
     alt = {307, 308, 313},
@@ -249,7 +257,7 @@ function UI:UI(app, minimal)
 end
 
 function UI:runDebugScript()
-  print("Executing Debug Script...") 
+  print("Executing Debug Script...")
   local path_sep = package.config:sub(1, 1)
   local lua_dir = debug.getinfo(1, "S").source:sub(2, -8)
   _ = TheApp.ui and TheApp.ui.debug_cursor_entity
@@ -584,7 +592,7 @@ local workaround_shift = {
   ["/"] = "?",
 }
 
--- ! Returns the numpad value (0, 1, 2, etc.) 
+-- ! Returns the numpad value (0, 1, 2, etc.)
 -- ! from key-code (256, 257, etc.) (as string)
 -- ! If key-code is not from the numpad, returns nil
 -- !param code (integer) The hardware key-code
@@ -595,7 +603,7 @@ function UI:numPadValue(code)
 end
 
 -- ! Test if key-code is from numpad
--- !param code (integer) The hardware key-code 
+-- !param code (integer) The hardware key-code
 function UI:isCodeFromNumPad(code)
   return 256 <= code and code <= 265
 end

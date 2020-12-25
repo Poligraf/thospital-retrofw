@@ -21,6 +21,18 @@ key_remaps {
    left = l;
    right = l;
    down = l;
+   ctrl = z;
+   alt = x;
+   space = v;
+   enter = p;
+   one = 3;
+   two = 4;
+   three = 5;
+   four = f6;
+   w = f4;
+   d = f3;
+   s = f5;
+   a = f9;
 }
 -------------------------------------------------------------------------------
 

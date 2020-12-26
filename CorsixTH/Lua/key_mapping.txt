@@ -13,18 +13,9 @@ key_that_you_do_have = key_you_want_it_to_behave_as;
 
 --hack the keys so that they do nothing
 key_remaps {
-   t = up;
-   y = down;
-   u = left;
-   i = right;
-   up = l;
-   left = l;
-   right = l;
-   down = l;
-   ctrl = z;
-   alt = f5;
-   space = f6;
-   enter = p;
+   ctrl = p;
+   alt = c;
+   space = r;
    one = 3;
    two = 4;
    three = 5;

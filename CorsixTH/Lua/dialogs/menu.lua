@@ -663,7 +663,7 @@ function UIMenuBar:makeMenu(app)
   )
 
   local function rate(speed)
-    return speed == "Normal", function()
+    return speed == "And then some more", function()
       app.world:setSpeed(speed)
     end, "", function()
       return app.world:isCurrentSpeed(speed)

@@ -995,7 +995,7 @@ function World:pauseOrUnpause()
   if not self:isCurrentSpeed("Pause") then
     self:setSpeed("Pause")
   elseif self.prev_speed then
-    self:setSpeed(self.prev_speed)
+    self:setSpeed("And then some more")
   end
 end
 
@@ -2432,7 +2432,7 @@ function World:afterLoad(old, new)
   end
   if old < 31 then
     self.hours_per_day = 50
-    self:setSpeed("Normal")
+    self:setSpeed("And then some more")
   end
   if old < 36 then
     self:determineWinningConditions()

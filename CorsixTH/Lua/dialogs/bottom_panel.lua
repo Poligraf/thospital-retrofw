@@ -94,19 +94,19 @@ function UIBottomPanel:UIBottomPanel(ui)
   end, 41, 30, 137, 42)
 
   -- original TH F-key shortcuts
-  ui:addKeyHandler("w", self.bank_button, self.bank_button.handleClick, "left")  -- bank manager
-  ui:addKeyHandler("d", self.bank_button, self.bank_button.handleClick, "right")  -- bank stats
-  ui:addKeyHandler("s", buttons[1], buttons[1].handleClick, "left")    -- staff management
-  ui:addKeyHandler("a", buttons[2], buttons[2].handleClick, "left")    -- town map
+  ui:addKeyHandler("F1", self.bank_button, self.bank_button.handleClick, "left")  -- bank manager
+  ui:addKeyHandler("F2", self.bank_button, self.bank_button.handleClick, "right")  -- bank stats
+  ui:addKeyHandler("F3", buttons[1], buttons[1].handleClick, "left")    -- staff management
+  ui:addKeyHandler("F4", buttons[2], buttons[2].handleClick, "left")    -- town map
   ui:addKeyHandler("F5", buttons[3], buttons[3].handleClick, "left")    -- casebook
-  ui:addKeyHandler("F6", buttons[4], buttons[4].handleClick, "left")    -- research
+  ui:addKeyHandler("space", buttons[4], buttons[4].handleClick, "left")    -- research
   ui:addKeyHandler("F7", buttons[5], buttons[5].handleClick, "left")    -- status
   ui:addKeyHandler("F8", buttons[6], buttons[6].handleClick, "left")    -- charts
   ui:addKeyHandler("F9", buttons[7], buttons[7].handleClick, "left")    -- policy
 
   -- "old" keyboard shortcuts for some of the fullscreen windows
   ui:addKeyHandler("T", buttons[2], buttons[2].handleClick, "left") -- T for town map
-  ui:addKeyHandler("end", buttons[4], buttons[4].handleClick, "left") -- R for research
+  ui:addKeyHandler("R", buttons[4], buttons[4].handleClick, "left") -- R for research
   local config = ui.app.config
   if not config.volume_opens_casebook then
     ui:addKeyHandler("C", buttons[3], buttons[3].handleClick, "left") -- C for casebook

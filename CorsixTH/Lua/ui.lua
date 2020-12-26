@@ -93,10 +93,10 @@ function UI:initKeyAndButtonCodes()
     four = 52,
     delete = 127,
     esc = 27,
-    up = 273,
-    down = 274,
-    right = 275,
-    left = 276,
+    -- up = 273,
+    -- down = 274,
+    -- right = 275,
+    -- left = 276,
     x = 120,
     z = 122,
     space = 32,
@@ -120,6 +120,10 @@ function UI:initKeyAndButtonCodes()
     shift = {303, 304},
     ctrl = {305, 306},
     alt = {307, 308, 313},
+    w = 119,
+    s = 115,
+    a = 97,
+    d = 100,
   }
   self.key_remaps = key_remaps
   self.key_to_button_remaps = key_to_button_remaps
